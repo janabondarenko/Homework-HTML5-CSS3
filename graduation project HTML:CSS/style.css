@@ -84,11 +84,8 @@ color: rgba(43, 41, 45, 0.6);
 }
 
 .about{
-    justify-content: space-around;
-    align-items:center ;
     background-color: #F4F5F7;
-    margin-bottom: 30px;
-
+    padding: 77px 0 78px;
 }
 
 .about_What{
@@ -111,7 +108,7 @@ color: rgba(43, 41, 45, 0.6);
 
 .partners{
 
-    margin: 0 130px;
+    margin: 0 auto;
 }
 .partners_img{
     justify-content: space-around;
