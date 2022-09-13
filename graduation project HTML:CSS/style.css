@@ -192,9 +192,14 @@ color: rgba(43, 41, 45, 0.6);
     border-radius: 5px;
 }
 
-.categories_item:hover{
-    background:#3141C5;
+.categories_item:hover >p{
     transition: 1s;
+    color: #FFFFFF;
+}
+.categories_item:hover{
+    background-color: #3040C4;
+    transition: 1s;
+
 }
 
 .img_item{
@@ -207,10 +212,6 @@ color: rgba(43, 41, 45, 0.6);
     text-align: center;
     color: #2B292D;
     font-weight: 700;
-   }
-
-.img_text:hover{
-    color: #FFFFFF;
 }
 
 .information_content{
