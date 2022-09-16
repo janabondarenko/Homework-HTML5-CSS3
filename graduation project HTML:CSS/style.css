@@ -17,6 +17,15 @@ body{
     align-items: center;
 }
 
+.flex_star{
+    justify-content:start
+}
+
+.flex_around{
+    justify-content:space-around
+}
+
+
 .button{
     width: 160px;
     height: 48px;
@@ -28,6 +37,7 @@ body{
     color: #FFFFFF;
     font-weight: 700;
     cursor: pointer;
+    align-items: center;
 }
 
 .logo img{
@@ -42,10 +52,10 @@ margin-right: 15px;
 }
 
 .logo_text{
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-color: rgba(43, 41, 45, 0.6);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
 }
 
 .header_link{
@@ -110,50 +120,38 @@ color: rgba(43, 41, 45, 0.6);
     margin: 0 auto;
 }
 
-.partners_img{
-    justify-content: space-around;
-    align-items:center 
-}
-
 .categories{
     background-color: rgba(0, 161, 198, 0.1);
     margin: 0 auto;
     }
-    
-    
 
- .categories_subtitle{
+
+.info_communicate{
+    margin-right: 194px;
+
+    }
+    
+.info_pretitle-categories{
     max-width: 167px;
     margin: 0 auto;
-    font-size: 22px;
-    line-height: 34px;
     text-align: center;
-    color: #2B292D;
-    font-weight: 700;
+    width: 100%;
     padding-top: 108px;
     margin-bottom: 24px;
     
 }
 
- .categories_title{
+ .info_title-categories{
     max-width: 555px;
     margin: 0 auto;
-    font-size: 56px;
-    line-height: 56px;
     text-align: center;
-    letter-spacing: -0.5px;
-    font-weight: 700;
-    color: #2B292D;
     margin-bottom: 30px;
 }
 
-.categories_text{
+.info_text-categories{
     max-width: 555px;
     margin: 0 auto;
-    font-size: 24px;
-    line-height: 34px;
     text-align: center;
-    color: #2B292D;
     margin-bottom: 34px;
 }
 
@@ -163,23 +161,18 @@ color: rgba(43, 41, 45, 0.6);
 }
 
 
-.button_right{
-    width: 160px;
-    height: 48px;
-    border: none;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 13px;
-    cursor: pointer;
-    font-weight: 700;
+.button-white{
     background-color: #FFFFFF;
+    color: #2B292D;
     margin-left: 10px;
+
 }
 
 .categories_content{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(1, 1fr);
+    justify-content: space-between;
     column-gap: 30px;
     padding-bottom: 110px;
 }
@@ -196,10 +189,10 @@ color: rgba(43, 41, 45, 0.6);
     transition: 1s;
     color: #FFFFFF;
 }
+
 .categories_item:hover{
     background-color: #3040C4;
     transition: 1s;
-
 }
 
 .img_item{
@@ -217,7 +210,6 @@ color: rgba(43, 41, 45, 0.6);
 .information_content{
     margin-top: 80px;
 }
-
 
 .information_title{
     max-width: 588px;
@@ -249,3 +241,120 @@ color: rgba(43, 41, 45, 0.6);
     grid-row: span 2;
 }
 
+
+
+/* inbox */
+
+.inbox{
+    background-color:rgba(252, 240, 227, .4);
+    padding: 119px 0 118px;
+    margin-bottom: 110px;
+}
+
+.info_pretitle{
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.info_pretitle-orange{
+    color: #F1592B;
+}
+
+.info_title{
+    max-width: 462px;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    color: #2B292D;
+    margin-bottom: 26px;
+
+}
+
+.info_text{
+    max-width: 461px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2B292D;
+    margin-bottom: 44px;
+}
+
+.inbox_response{
+    max-width: 519px;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 30px 30px 24px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #0185D0;
+}
+
+.inbox_text{
+    max-width: 461px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2B292D;
+    margin-bottom: 26px;
+}
+
+.inbox_text-bold{
+    font-weight: 700;
+}
+
+.inbox_img{
+    margin-right: 11px;
+}
+
+.inbox_name{
+    font-weight: 700;
+    line-height: 22px;
+    color: #2B292D;
+}
+.inbox_position{
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+
+/* info */
+
+.info_pretitle--blue{
+    max-width: 225px;
+    margin-bottom: 24px;
+    color: #0189D1;
+}
+
+.info_title--width{
+    margin-bottom: 30px;
+}
+
+.info_text--width{
+    margin-bottom: 39px;
+}
+
+.communicate_img{
+    max-width: 425px;
+    margin: 0 63px 220px 0px;
+}
+
+.offer{
+    margin-bottom: 105px;
+}
+
+.offer_content{
+    max-width: 360px;
+}
+
+.offer_text{
+    font-size: 18px;
+    line-height: 26px;
+    color: #2B292D;
+}
+.offer_link{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #3040C4;
+}
