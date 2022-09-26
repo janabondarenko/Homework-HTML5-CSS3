@@ -600,6 +600,9 @@ font-weight: 700;
     color: rgba(43, 41, 45, 0.6);
     text-decoration: none;
 }
+.footer_Product{
+   margin-right: 29px;
+}
 
 .line{
     max-width: 1440px;
@@ -688,8 +691,7 @@ font-weight: 700;
  }
 
 
-
-   
+ 
 @media screen and (max-width: 1090px){
 
 
