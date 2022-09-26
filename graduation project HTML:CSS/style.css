@@ -586,10 +586,6 @@ margin-right: 15px;
     align-items: stretch;
 }
 
-.footer_Product{
-    margin-right: 82px;
-}
-
 .footer_link-title{
 font-size: 22px;
 line-height: 28px;
@@ -762,14 +758,15 @@ font-weight: 700;
     display: none;
 }
 
-.header_nav{
-margin-top: 40px;
+  .header_nav{
+display: none;
 }
 
 
 .header_ul{
     flex-direction: column;
     margin-right: 0;
+    padding-top: 40px;
    
 }
 
@@ -1078,16 +1075,22 @@ padding-left: 217px;
     margin-bottom: 38px;
 }
 
+
 .flex_footer--column{
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   
 }
 
 .footer_img{
+    margin: 0 auto;
     justify-content: center;
     text-align: center;
     margin-bottom: 32px;
+}
+
+.footer_content{
+    margin: 0 auto;
 }
 
 .logo_subtitle--footer{
@@ -1113,13 +1116,7 @@ padding-left: 217px;
 
 
 .footer_Product{
-
     margin-bottom: 25px;
-}
-
-.footer_Company{
-    
-margin-right: 125px;
 }
 
 .footer_link-title{
