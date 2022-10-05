@@ -9,6 +9,7 @@ body{
 .container{
     max-width: 1140px;
     margin: 0 auto; 
+    
 }
 
 .flex{
@@ -208,7 +209,7 @@ margin-right: 15px;
 }
 
 .partners{
-    margin: 0 auto;
+    margin: 0 auto 62px;
 }
 
 .categories{
@@ -333,6 +334,91 @@ margin-right: 15px;
 }
 
 
+/* feauters */
+
+.features{
+    padding: 106px 0 110px;
+    position: relative;
+}
+
+.info_pretitle-green{
+    color: rgba(0, 155, 77, 1);
+    margin-bottom: 24px;
+}
+
+.feauters_title{
+    margin-bottom: 30px;
+}
+
+.feauters_text{
+    margin-bottom: 42px;
+}
+
+
+.flex_feauters{
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.features_items{
+    margin-bottom: 20px;
+}
+
+.features_items:nth-child(4){
+    margin-bottom: 0;
+}
+
+.features_image{
+    margin-right: 15px;
+}
+
+.features_items-title{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+
+
+.features_items-text{
+    max-width: 459px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    display: none;
+   color: rgba(43, 41, 45, 1);
+
+}
+
+.features_line{
+  width: 457px;
+  height: 3px;
+  background-color: rgba(43, 41, 45, .6)
+
+}
+
+
+.img_inSpace{
+    position: absolute;
+    top: 117px;
+    right: 0px;
+    max-width: 684px;
+    width: 100%;
+   
+}
+
+.img_left{
+    position: absolute;
+   bottom: 178px;
+    left: -8px;
+}
+
+.change_color--feauters{
+    color: rgba(49, 66, 198, 1);
+    transition: 300ms;
+}
 
 /* inbox */
 
@@ -637,6 +723,128 @@ font-weight: 700;
 
 }
 
+/* section hiring */
+
+.hiring{
+    padding: 106px 0 90px;
+    text-align: center;
+}
+
+
+.hiring_items-title--800{
+    display: none;
+}
+
+.hiring_items-pretitle--800{
+    display: none;
+}
+
+.info_title--hiring{
+    max-width: 555px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.info_text--hiring{
+    max-width: 555px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+
+}
+
+.button_hiring{
+    width: 247px;
+    margin-bottom: 63px;
+}
+
+.hiring_items{
+    max-width: 750px;
+    margin: 0 auto 20px;
+    box-sizing: border-box;
+    padding: 26px 25px;
+    color: rgb(43, 41, 45);
+    border: 2px solid rgba(43, 41, 45, 0.2);
+    border-radius: 8px;
+    position: relative;
+}
+
+.hiring_items:last-child{
+    margin-bottom: 0;
+}
+
+.hiring_items-text{
+    margin-top: 3px;
+    max-width: 410px;
+    text-align: start;
+    font-size: 18px;
+    line-height: 26px;
+    opacity: .6;
+    display: none;
+}
+
+.hiring_items-title{
+    max-width: 408px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.hiring_items-pretitle{
+  position: absolute;
+  max-width: 232px;
+  left: 453px;
+  font-size: 18px;
+  line-height: 24px;
+  opacity: .6;
+ 
+}
+
+.hiring-rotate-icon{
+    transform: rotate(90deg);
+    transition: 300ms;
+}
+
+.change_color{
+    color: #FFFFFF;
+    background-color: #3142C6;
+    border:  2px solid #3142C6 ;
+    transition: 300ms;
+}
+
+/* modal  */
+
+.modal_overlay{
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+.modal{
+    max-width:  550px;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding:50px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.close{
+    position: absolute;
+    top: 20px;
+    right: 40px ;
+    cursor: pointer;   
+}
 
 
 
@@ -688,9 +896,15 @@ font-weight: 700;
             top: 30px;
         }
     }
+
+    /* feauters  */
+
+    .img_inSpace {
+        
+        max-width: 655px;
+       
  }
-
-
+}
  
 @media screen and (max-width: 1090px){
 
@@ -980,6 +1194,28 @@ padding-left: 217px;
     margin-bottom: 79px;
  }
 
+ /* feauters  */
+
+ .job{
+   
+   max-width: 459px;
+   margin: 0 auto;
+ }
+
+
+ .img_inSpace{
+    align-items: flex-start;
+    position: static;
+ }
+
+ .img_inSpace{
+    max-width: 538px;
+ }
+
+.img_left{
+    bottom: 721px;
+}
+
  /* information */
 
  .information{
@@ -1149,8 +1385,99 @@ padding-left: 217px;
 }
 
 
+/* .hiring */
 
+.hiring{
+   padding: 87px 0 43px;
 
+}
+
+.info_title--hiring{
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    margin-bottom: 14px;
+    margin-top: 87px;
+}
+
+.info_text--hiring{
+    max-width: 420px;
+    font-size: 20px;
+    line-height: 26px;
+}
+.button_hiring{
+    width: 247px;
+    margin-bottom: 67px;
+}
+
+/* .hiring{
+    margin: 87px auto;
+   
+} */
+
+.hiring_items{
+    padding: 19px 0;
+    position: relative;
+}
+
+.hiring_items-title{
+    max-width: 408px;
+    font-size: 22px;
+    line-height: 28px;
+    margin-left: 10px;
+   margin-bottom: 7px;
+}
+
+.hiring_items-pretitle{
+    max-width: 232px;
+    font-size: 16px;
+    line-height: 22px;
+  
+   
+}
+
+.hiring_icon{
+    margin-right: 34px;
+
+    }
+
+    /* carusel  */
+
+    .reviews{
+     margin: 87px auto;
+     padding: 0;
+    }
+   
+    .reviews_title{
+        margin-bottom: 14px;
+    }
+    
+    .reviews_text{
+       max-width: 583px;
+       margin-bottom: 0px;
+      
+    }
+
+    .reviews_li{
+    position: absolute;
+    width: 583px;
+    z-index: 1 
+}
+
+    .reviews_person-job{
+        margin-bottom: 14px;
+    }
+
+    .bx-pager{
+        margin: 0 auto;
+    }
+
+    .reviews_img {
+     max-width: 253px;
+     top: 101px;
+     right: 50px;
+     transform: translate(-80%, 110%);
+   }
 }
 
 @media screen and (max-width: 800px){
@@ -1233,8 +1560,61 @@ padding-left: 217px;
         padding-left: 100px;
     }
 
+    .hiring_items{
+        max-width: 390px;
     }
 
+    .flex_hiring--column{
+        flex-direction: column;
+        position: relative;
+        align-items: flex-start;
+    }
+
+    .hiring_items-pretitle{
+      position: static;
+      margin-left: 20px;
+    }
+    .hiring_icon{
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+    }
+
+    .hiring_items-title{
+        margin-left: 20px;
+    }
+
+    /* .feauters  */
+
+    .img_inSpace {
+        max-width: 520px;
+    }
+
+    /* reviews */
+
+    .reviews_li{
+        text-align: start;
+    }
+
+    .reviews_title{
+        margin-bottom: 29px;
+    }
+
+    .reviews_text{
+        margin-bottom: 32px;
+    }
+
+    .bx-pager {
+        margin: 0px auto;
+        padding: 40px 0;
+    }
+
+    .reviews_img{
+        max-width: 290px;
+        top: 435px;
+        right: -95px;
+        }
+}
 
 @media screen and (max-width: 550px){
     .container{
@@ -1265,6 +1645,22 @@ padding-left: 217px;
         text-align: center;
     }
 
+    /* feauters */
+
+    .info_feauters{
+        text-align: start;
+    }
+
+    .img_left{
+        max-width: 70px;
+    }
+
+    .reviews_img {
+        max-width: 290px;
+        top: 650px;
+        right: -130px;
+
+
     
 }
 
@@ -1275,6 +1671,17 @@ padding-left: 217px;
 
   .header {
     padding: 27px 0 28px;
+}
+
+.carusel{
+    max-width: 290px;
+    text-align: start;
+    padding: 0;
+}
+
+.reviews_title{
+    max-width: 290px;
+   
 }
 
 /* main */
@@ -1420,7 +1827,12 @@ padding-left: 217px;
     display: none;
 }
 
+.features_line{
+max-width: 320px;
 }
+}
+
+
    
 @media screen  and (max-width: 360px){
     container{
@@ -1487,6 +1899,47 @@ padding-left: 217px;
 
 .action_form{
     margin: 0 15px 50px;
+}
+
+/* feauters */
+
+.features {
+    padding: 49px 0 44px;
+}
+
+.info_pretitle-green{
+    margin-bottom: 17px;
+}
+
+.feauters_title{
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.357143px;
+}
+
+.feauters_text{
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.features_items{
+    margin-bottom: 17px;
+}
+
+.features_items-text{
+    font-size: 16px;
+}
+
+.features_items-title{
+    font-size: 16px;
+    line-height: 26px;
+}
+.img_inSpace{
+    max-width: 290px;
+}
+
+.img_left {
+    display: none;
 }
 }
 
@@ -1701,6 +2154,36 @@ padding-left: 217px;
     line-height: 34px;
     text-align: center;
     margin: 0 auto 25px;
+}
+
+/* hiring  */
+
+.hiring_items{
+max-width: 290px;
+max-height: 140px;
+}
+
+.hiring_items-title{
+    margin-bottom: 7px;
+}
+
+.hiring_icon{
+    right: -20px;
+    bottom: 30px;
+}
+
+.hiring_items-pretitle{
+    padding-bottom: 10px;
+}
+
+.hiring_items-text {
+    margin-top: 0px;
+    max-width: 510px;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    
 }
 
 /* .footer */
