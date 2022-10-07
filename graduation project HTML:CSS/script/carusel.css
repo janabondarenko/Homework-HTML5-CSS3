@@ -52,7 +52,7 @@
 
 .bx-pager{
     max-width: 50px;
-    margin: 14px auto;
+    
     display: flex;
     text-align: center;
     align-items: center;
@@ -82,4 +82,24 @@
 
 .bx-pager-link{
  opacity: 0;
+}
+
+.bx-wrapper {
+    -moz-box-shadow:none;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+    border: none;
+    background: none;
+}
+
+.bx-wrapper .bx-pager{
+   left:415px;
+
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    
+    width: 8px;
+    height: 8px;
+    margin: 0;
 }

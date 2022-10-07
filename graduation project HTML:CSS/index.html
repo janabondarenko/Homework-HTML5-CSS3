@@ -9,9 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./script/carusel.css">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Foundation</title>
 </head>
 <body>
    <header class="header">
@@ -38,7 +39,7 @@
         <nav class="header_nav flex">
             <ul class="header_ul flex">
                 <li class="header_li">
-                    <a class="header_link" href="#"> 
+                    <a id="about_link" class="header_link" href="#"> 
                         Home
                     </a>
                 </li>
@@ -81,7 +82,7 @@
         </div>
     </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
         <div class=" about_content container flex flex_column--column">
         <div class="about_What">
             <h5 class="about_title">
@@ -286,11 +287,11 @@
             </div>
 
                 <div class="container-image">
-                    <img class="communicate_img image-animation" src="./img/Communicate /ouch 2.png " alt="phone"> 
+                    <img class="communicate_img image-animation" src="./img/communicate /ouch 2.png" alt="phone"> 
                 </div>
             </div>
                 <div class="offer">
-                <div class="container flex flex_communicate--column">
+                <div class="container flex  flex_communicate--column">
                 <div class="offer_content1">
                     <p class="offer_text">
                        <span class="inbox_text-bold"> Subscriptions.</span>
@@ -788,11 +789,18 @@
     </div>
  </div>
 
+ <div id="up">
+    <span>
+        >
+    </span>
+ </div>
+
  
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  <script src="./script/slider.js"></script>
  <script src="./script/script.js"></script>
-<script src="./modal.js"></script>
+<script src="./script/modal.js"></script>
+ <script src="./script/upButtom.js"></script>
 </body>
 </html>
