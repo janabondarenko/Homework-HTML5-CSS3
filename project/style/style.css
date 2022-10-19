@@ -350,8 +350,12 @@ body{
     position: relative;
 }
 
-.black_foto::after{
-    content: url(../img/products/Rectangle.png);
+.black_foto::after{ 
+    content: "";
+    background: url(../img/products/Rectangle.png); 
+    width: 500px;
+    height: 220px;
+    display: inline-block;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -386,7 +390,11 @@ body{
 }
 
 .ceramic_foto::after{
-    content: url(../img/products/Rectangle.png);
+    content: "";
+    background: url(../img/products/Rectangle.png); 
+    width: 500px;
+    height: 220px;
+    display: inline-block;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1134,12 +1142,22 @@ padding: 15px 0;
     margin-bottom: 20px;
 }
 
+.black_foto::after{
+    width: 350px;
+    height: 150px;
+}
+.ceramic_foto::after{
+    width: 350px;
+    height: 150px;
+}
+ 
+
 .flex--products--ceramic{
     flex-direction: column-reverse;
 }
 
 .products_content--orange{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .rectangle {
@@ -1310,6 +1328,14 @@ padding: 15px 0;
 .craft{
     padding: 20px 10px;
     margin: 0;
+}
+.black_foto::after{
+    width: 250px; ;
+    height: 100px;
+}
+.ceramic_foto::after {
+    width: 250px; 
+    height: 100px;
 }
 .since, .Provide {
     max-width: 290px;
